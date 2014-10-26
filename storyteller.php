@@ -11,3 +11,8 @@ Domain Path: /languages
 License: GPLv2
 */
 
+# Helper class
+require_once 'inc/class-plugin.php';
+
+# Structural
+require_once 'inc/class-structure.php';
