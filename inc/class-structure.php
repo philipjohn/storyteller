@@ -39,7 +39,7 @@ Class Storyteller_Structure extends Storyteller_Plugin {
 		register_extended_post_type(
 			'story',
 			array(
-				'cols' => array(
+				'admin_cols' => array(
 					'published' => array(
 						'title' => __('Published'),
 						'meta_key' => 'published_date',
