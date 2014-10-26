@@ -9,6 +9,7 @@ Plugin URI: http://github.com/philipjohn/storyteller
 Text Domain: storyteller
 Domain Path: /languages
 License: GPLv2
+Depends: Extended CPTs
 */
 
 # Helper class

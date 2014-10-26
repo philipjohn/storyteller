@@ -169,9 +169,9 @@ class Storyteller_Plugin {
 		// Here we manually fudge the plugin locale as WP doesnt allow many options
 		$locale = get_locale();
 		if( empty( $locale ) )
-			$locale = 'en_GB';
+			$locale = 'en_US';
 
-		$mofile = $this->dir( "/languages/$locale.mo" );
+		$mofile = $this->dir( "/locale/$locale.mo" );
 		load_textdomain( $this->name, $mofile );
 	}
 
